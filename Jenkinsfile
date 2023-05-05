@@ -4,7 +4,7 @@ pipeline {
 
     options {
         buildDiscarder logRotator( 
-                    daysToKeepStr: '3'/*, 
+                    daysToKeepStr: '1'/*, 
                     numToKeepStr: ''*/
             )
     }
