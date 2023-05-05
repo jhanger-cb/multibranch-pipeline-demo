@@ -2,14 +2,12 @@ pipeline {
 
     agent any
 
-/*
     options {
         buildDiscarder logRotator( 
-                    daysToKeepStr: '16', 
-                    numToKeepStr: '11'
+                    daysToKeepStr: '3'/*, 
+                    numToKeepStr: ''*/
             )
     }
-*/
     stages {
         
         stage('Cleanup Workspace') {
