@@ -4,13 +4,14 @@ pipeline {
         node any
     }
 
+/*
     options {
         buildDiscarder logRotator( 
                     daysToKeepStr: '16', 
                     numToKeepStr: '11'
             )
     }
-
+*/
     stages {
         
         stage('Cleanup Workspace') {
