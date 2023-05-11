@@ -62,6 +62,12 @@ pipeline {
                 """
             }
         }
+        
+        stage('Publish') {
+            steps {
+                sh "echo 'testing tags'"
+            }
+        }
 
     }   
 }
